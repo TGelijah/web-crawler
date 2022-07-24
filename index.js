@@ -1,6 +1,13 @@
 import fetch from "node-fetch";
 import cheerio from "cheerio";
 
+/*
+TODO 1: Update code to allocate workers accordingly
+TODO 2: Add functionality to both the shell script and worker script to allow users pick elements the want to crawl for on the fly
+TODO 3: Update Crawler function to only crawl links with the same domain
+TODO 4: Update code to correctly check the flags being passed
+*/
+
 //stores link
 let webLink = "http://";
 
